@@ -1,0 +1,61 @@
+//* styles.css */
+
+/* Estilos generales */
+body {
+  font-family: Times New Roman, serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+/* Estilos del formulario de pacientes */
+#paciente-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+#paciente-form input,
+#paciente-form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#paciente-form button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Estilos del formulario de doctores */
+#doctor-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+#doctor-form input,
+#doctor-form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#doctor-form button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang= "es">
+<head>
+	
+<meta charset="utf-8">
+<title>Aplicativo Web-Doctores y Pacientes</title>
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+<script src="Doctor.js"></script>
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+<script src="Paciente.js"></script>
+
+</head>
+<body>
+
+<h1>Formulario de Doctores</h1>
+<form id="doctor-form">
+	<label for="suNombre" >Nombre</label>
+	<input type="text" name="nombre" id="suNombre" size="50" autocomplete="off" autofocus maxlength="10"> <br>
+	<label for="suApellido">Apellido</label>
+	<input type="text" name="apellido" id="suApellido" size="50" autocomplete="off" autofocus maxlength="10"><br>
+	<label for="suNumeroCedula">Número de Cedula</label>
+	<input type="number" name="Cedula" id="suNumeroCedula" size="50" autocomplete="off" autofocus maxlength="10"><br>
+
+    <label for="suEspecialidad">Especialidad</label>
+	<select name =especialidad>
+
+		<option value="medicina_general">Medicina General</option>
+		<option  valuw="cardiologia">Cardiologia</option>
+		<option value="medicina_interna">Medicina Interna</option>
+		<option value="dermatologia">Dermatologia</option>
+		<option value=rehabilitación_Física>Rehabilitación Física</option>
+		<option value="Psicología">Psicologia</option>
+		<option value="odontología">Odontología</option>
+		<option value="radiología">Radiología</option>
+
+	</select><br>
+     <label for="suConsultorio">Consultorio</label>
+	<input type="text" name="Consultori" id="suConsultorio" size="50" autocomplete="off" autofocus maxlength="3"><br>
+	<label for="suCorreo">Correo de Contacto</label>
+	<input type="email" name="Correo" id="suCorreo" size="50" autocomplete="off"><br>
+	<button type="submit">Enviar</button>
+
+</form>
+
+<h1>Formulario de Pacientes</h1>
+
+<form id="paciente-form">
+
+	<label for="suNombre" >Nombre</label>
+	<input type="text" name="nombre" id="suNombre" size="50" autocomplete="off" autofocus maxlength="10"> <br>
+	<label for="suApellido">Apellido</label>
+	<input type="text" name="apellido" id="suApellido" size="50" autocomplete="off" autofocus maxlength="10"><br>
+	<label for="suNumeroCedula">Número de Cedula</label>
+	<input type="text" name="Cedula" id="suNumeroCedula" size="50" autocomplete="off" autofocus maxlength="10"><br>
+	<label for="suEdad">Edad</label>
+	<input type="text" name="edad" id="suEdad" size="50" autocomplete="off" autofocus maxlength ="2"><br>
+	<label for="suTelefono">Telefono</label>
+	<input type="text" name="telefono" id="suTelefono"size="50" autocomplete="off" autofocus maxlength ="10"><br>
+
+	<label for="suEspecialidad">Especialidad</label>
+	<select name =especialidad>
+
+		<option value="medicina_general">Medicina General</option>
+		<option  valuw="cardiologia">Cardiologia</option>
+		<option value="medicina_interna">Medicina Interna</option>
+		<option value="dermatologia">Dermatologia</option>
+		<option value=rehabilitación_Física>Rehabilitación Física</option>
+		<option value="Psicología">Psicologia</option>
+		<option value="odontología">Odontología</option>
+		<option value="radiología">Radiología</option>
+
+
+	</select><br>
+
+   <button type="submit">Enviar</button>
+
+</form>
+<ul id="lista-pacientes"></ul>
+<ul id="lista-doctores"></ul>
+  
+</body>
+
+
+
+
+</html>
+
